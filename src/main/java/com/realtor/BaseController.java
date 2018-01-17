@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class BaseController {
 
     @GetMapping("/")
-    @ResponseBody
     public String test(){
-        return "This is my first test";
+        return "index";
     }
 }
