@@ -12,6 +12,6 @@ public class BaseController {
 
     @GetMapping("/")
     public String test(){
-        return "index";
+        return "pages-login";
     }
 }
